@@ -1,0 +1,77 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration : none;
+}
+.container {
+  display: flex;
+  margin-left: 5px;
+}
+main {
+  width: 100%;
+  padding: 5px;
+}
+.sidebar{
+  background: #595959;
+  color: #fff;
+  height: 100vh;
+  transition all 0.5s;
+  border-radius: 15px;
+  border-bottom-right-radius: 0px;
+}
+.top_section{
+  display: flex;
+  align-items:center;
+  padding: 20px 15px;
+  background-color: #2F3878;
+  border-top-left-radius: 15px;
+}
+.logo {
+ padding-left: 15px;
+}
+.icon {
+  justify-content: center; 
+}
+.bars {
+  display:flex;
+  font-size:30px;
+}
+.link {
+  display:flex;
+  color: #fff;
+  gap: 25px
+  transition all 0.5s;
+}
+.link:hover{
+  background:rgb(255, 255, 255);
+  color: #000;
+  border-top-left-radius: 17px;
+  border-bottom-left-radius: 17px;
+}
+.active {
+  background: rgb(255, 255, 255);
+  color: #000;
+  border-top-left-radius: 17px;
+  border-bottom-left-radius:17px;
+  margin-left: 5px;
+}
+.icon, .link_text {
+  font-size: 35px;
+  border-top-left-radius: 2px;
+
+  padding-top: 9px;
+  padding-bottom: 1px;
+  color: inherit;
+    height: auto;
+    margin: 0;
+    display: block;
+    opacity: 1;
+    position: relative;
+    transform: translate3d(0px, 0, 0);
+    transition: transform 300ms ease 0s, opacity 300ms ease 0s;
+    font-family: "Sedan", serif;
+  font-weight: 400;
+  font-style: normal;
+    line-height: 30px;
+    white-space: nowrap;
+}
